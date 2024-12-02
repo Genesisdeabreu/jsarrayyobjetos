@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/assets/img/favi.png" type="image/x-icon">
+    <title>Propiedades en Alquiler</title>
+    <link rel="stylesheet" href="assets/css/estilos.css">
+  </head>
+  <body>
+
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+    crossorigin="anonymous"/>
+
+    <nav>
+      <a href="index.html">Inicio</a>
+    </nav>
+    <div class="container">
+      <h1>Propiedades en Alquiler</h1>
+      <div class="row" id="contenedor-alquiler"></div>
+    </div>
+
+    <script src="assets/js/scripts.js"></script>
+
+    <script
+    src="https://kit.fontawesome.com/f5bdbb41e0.js"
+    crossorigin="anonymous"></script>
+
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous">
+  </script>
+
+    <script>
+      const contenedorAlquiler = document.getElementById("contenedor-alquiler");
+      renderizarPropiedades(propiedades_alquiler, contenedorAlquiler, propiedades_alquiler.length);
+    </script>
+
+  </body>
+</html>
